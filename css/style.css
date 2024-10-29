@@ -1,0 +1,252 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Nunito Sans, sans-serif;
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    color: #FFFFFFB2
+}
+
+button {
+    border: none;
+    background: #5454D4;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+}
+
+body {
+    background: #19191B;
+}
+
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+#header {
+    padding-block: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logoh1 {
+    font-size: 26px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: #FFFFFFB2;
+    font-size: 16px;
+}
+
+.header input {
+    border: 2px solid #FFFFFF;
+    background: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-text h1 {
+    font-size: 42px;
+    color: #FFFFFF;
+    width: 350px;
+}
+
+.main-text p {
+    font-size: 16px;
+    width: 430px;
+    line-height: 27px;
+}
+
+
+.main-text button {
+    color: #fff;
+}
+
+.main image {
+    max-width: 500px;
+}
+
+.main- image img {
+    width: 100%;
+    position: relative;
+}
+
+.Vector1 {
+    max-width: 70px;
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    left: 700px;
+}
+
+.Vector2 {
+    max-width: 70px;
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    right: 130px;
+}
+
+.Vector3 {
+    max-width: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    left: 700px;
+}
+
+.Vector4 {
+    max-width: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    right: 130px;
+}
+
+.service-title {
+    padding-block: 70px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.service-title h1 {
+    font-size: 30px;
+    width: 380px;
+    text-align: center;
+
+}
+
+.service {
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.bacround-icon {
+    width: 60px;
+    height: 60px;
+    background: #1f1f2e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h1 {
+    font-size: 24px;
+}
+
+.box p {
+    width: 260px;
+    font-size: 16px;
+}
+
+.portfolio .title h1 {
+    font-size: 35px;
+    padding-block: 35px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    color: #fff;
+    margin-top: 50px;
+
+}
+
+.portfolio .box {
+    padding: 20px 10px;
+    background: #1E1E20;
+    border-radius: 14px;
+}
+
+.portfolio .box img {
+    max-width: 300px;
+    width: 100%;
+}
+
+#image-1 {
+    display: flex;
+    align-self: flex-start;
+}
+
+#image-2 {
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+}
+
+#image-3 {
+    display: flex;
+    align-self: flex-end;
+}
+
+#contact {
+    padding-block: 50px;
+}
+
+.contact {
+    padding-block: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.contact h1 {
+    width: 450px;
+    font-size: 35px;
+}
+
+.contact button {
+    color: #fff;
+}
